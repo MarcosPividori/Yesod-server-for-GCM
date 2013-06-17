@@ -1,0 +1,274 @@
+* 
+   margin:0
+   padding:0
+
+input.button_add
+    background-image: url("@{StaticR design_boton1_gif}");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 0px 0px; 
+    border: none;     
+    cursor: pointer; 
+    height: 45px;      
+    width: 180px;  
+    padding-left: 0px;     
+    vertical-align: middle; 
+
+body, div, span, p, a, img, ul, ol, li, caption, table, thead, tbody, tfoot, tr, th, td, form, fieldset, legend, label, dl, dt, dd, blockquote, applet, object, h1, h2, h3, h4, h5
+   border:0
+
+body 
+   padding-bottom:20px
+   background:url("@{StaticR design_bg_gif}") 0 0 repeat-x
+   font:0.8em/1.5 "arial",sans-serif; 
+   text-align:center
+
+h1, h2, h3, h4, h5, h6 
+   margin:15px 0 10px 0
+h1 
+   font-size:250%
+h2 
+   font-size:160%
+   text-align:center
+h3 
+   font-size:140%
+h4 
+   font-size:120%
+   text-align:center
+h5 
+   font-size:100%
+
+p, table, ul, ol, dl, fieldset
+   margin:15px 0
+
+table
+   border-collapse:collapse
+   border-spacing:0
+   font-size:100%
+
+th
+   text-align:center
+   font-weight:bold
+
+th, td 
+   padding:3px 7px
+
+ul, ol
+   margin-left:30px
+
+ul ul, ol ol 
+   margin:0
+   margin-left:20px
+
+ol 
+   list-style-type:decimal
+
+li
+   display:list-item
+
+dt
+   font-weight:bold
+
+dd
+   margin-left:30px
+
+fieldset
+   position:relative
+   padding:10px
+
+legend
+   position:absolute
+   top:-1em
+   margin:0
+   padding:5px 10px
+   font-size:100%
+   font-weight:bold
+
+
+.box
+   min-height:1px
+
+.box:after 
+   display:block
+   visibility:hidden
+   clear:both
+   line-height:0
+   font-size:0
+   content:"."
+
+.relative
+   position:relative
+   
+
+.clear
+   clear:both
+
+.f-left
+   float:left !important
+
+img.f-left 
+   float:left
+   margin-right:10px
+
+.f-right 
+   float:right !important
+
+img.f-right
+   float:right
+   margin-left:10px
+
+.t-left
+   text-align:left !important
+
+.t-center
+   text-align:center !important
+
+.t-right
+   text-align:right !important
+
+.t-justify
+   text-align:justify !important
+
+.va-top
+   vertical-align:top
+
+.va-middle
+   vertical-align:middle
+
+.va-bottom
+   vertical-align:bottom
+
+.nom
+   margin:0 !important
+.nomt
+   margin-top:0 !important
+.nomb
+   margin-bottom:0 !important
+
+.noscreen
+   display:none
+
+
+table.table-style01
+   width:100%
+table.table-style01 th
+   text-align:center
+
+ul.ul-style01
+   margin:15px 0 15px 20px
+   padding:0
+   list-style:none
+
+ul.ul-style01 ul
+   margin:0
+   padding:0
+   list-style:none
+
+
+
+#main 
+   width:900px
+   margin:0 auto
+   text-align:left
+
+#header 
+   position:relative
+   height:133px
+   background:url("@{StaticR design_header_jpg}") 0 0 no-repeat
+   overflow:hidden
+
+#logo
+   position:absolute
+   top:50px
+   left:120px
+   margin:0
+   font-size:260%
+   letter-spacing:-1px
+   font-weight:normal
+
+#logo span
+   font-weight:bold
+
+#logo a
+   text-decoration:none
+
+#nav
+   background:url("@{StaticR design_nav_gif}") 0 100% no-repeat
+
+#nav ul 
+   margin:0
+   padding:0
+   list-style:none
+
+#nav ul li
+   display:inline
+   margin:0
+   padding:0
+
+#nav ul li a
+   display:block
+   float:center
+   padding: 15px 10px 0px 90px
+   text-decoration:underline
+
+#nav ul li #nav-active a 
+   font-weight:bold
+   text-decoration:none
+
+#user
+   float:right
+   padding-right:10px
+
+#content
+   float:left
+   width:895px
+   overflow:hidden
+
+#content #content-title
+   margin:0
+   padding:15px 15px 10px 20px
+   background:url("@{StaticR design_contenttitle_gif}") 0 0 no-repeat
+   font-weight:normal
+
+#content #content-in
+   padding:15px 15px 10px 20px
+
+#footer
+   width:855px
+   height:40px
+   padding:20px 20px 0 20px
+   background:url("@{StaticR design_footer_gif}") 0 0 no-repeat
+
+#footer p
+   margin:0
+ 
+
+#perex
+   text-align: center
+   margin-left:5px
+   padding:15px
+   background:url("@{StaticR design_perex_gif}") 0 100% no-repeat
+
+#perex p
+   margin-left:5px
+
+#sections
+   background:url("@{StaticR design_sections_gif}") 0 0 repeat-y
+   margin-left:5px
+   padding:15px
+
+.section
+   float:left
+   width:200px
+.section p
+   margin:0
+.section.margin
+   margin:0 10px
+.section h3
+   margin:0
+   padding:10px
+   font-size:100%
+.section-in
+   margin-bottom:10px
+   padding:0 10px 10px 10px
+

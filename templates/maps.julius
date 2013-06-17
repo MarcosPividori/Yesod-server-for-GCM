@@ -1,0 +1,23 @@
+$(function(){
+    $.ajaxSetup({cache: false});
+    $.getJSON("@{LocationsR periodo}", function(data){
+        var map = new google.maps.Map(document.getElementById("map_canvas"), {
+            zoom: 2,
+            scrollwheel: true,
+            center: new google.maps.LatLng(0, 0),
+            mapTypeId: google.maps.MapTypeId.SATELLITE
+        });
+        var markers = [];
+          for (var i = 0; i < data.locations.length; ++i) {
+            var lat = parseFloat(data.locations[i].lat);
+            var lng = parseFloat(data.locations[i].lng);
+            var marker = new google.maps.Marker({
+                map: map,
+                position: new google.maps.LatLng(lat, lng),
+                title: data.locations[i].date
+            });
+            markers.push(marker);
+          }
+        var mc = new MarkerClusterer(map, markers);
+    });
+});

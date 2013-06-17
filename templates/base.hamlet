@@ -1,0 +1,15 @@
+$doctype 5
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <meta charset="utf-8">
+        <title> Informacion de Dispositivos 
+        <link href="https://developers.google.com/maps/documentation/javascript/examples/default.css" rel="stylesheet">
+        <link href="http://www.jplayer.org/latest/js/prettify/prettify-jPlayer.css" rel="stylesheet" type="text/css" />
+        <link href="http://www.jplayer.org/latest/skin/blue.monday/jplayer.blue.monday.css" rel="stylesheet" type="text/css" />
+        <link href="http://www.jplayer.org/latest/css/jPlayer.css" rel="stylesheet" type="text/css" />
+        <link rel="shortcut icon" href="/graphics/jplayer.ico" type="image/x-icon" />
+
+    <body>
+        <script type="text/javascript" src="http://www.jplayer.org/latest/js/prettify/prettify-jPlayer.js">

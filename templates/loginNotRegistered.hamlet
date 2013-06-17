@@ -1,0 +1,15 @@
+<div id="main">
+    <div id="header">
+                <h1 id="logo"><a href="#"> 
+                    Información de
+                    <span>
+                       Dispositivos
+    <div class="box" .login-options >
+                <div id="content">
+                    <h2 id="content-title">
+                        No tienes registrado ningun celular, necesitas uno para poder ingresar.
+                        Login using:
+                    <div id="perex" class="box">
+                        <form method="get" action="@{AuthR forwardUrl}" .button .google>                                                                                           
+                            <input type="hidden" name="openid_identifier" value="https://www.google.com/accounts/o8/id">
+                            <input type="image" src="@{StaticR google_jpg}" value="Login via Google">
